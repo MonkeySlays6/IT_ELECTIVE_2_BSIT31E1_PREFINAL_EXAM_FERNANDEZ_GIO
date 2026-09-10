@@ -230,6 +230,19 @@ public class HomeController : Controller
                 },
                 ChosenAnswer = "B"
             },
+            new ExamQuestion
+            {
+                Number = 18,
+                Question = "Which middleware is commonly used in ASP.NET Core for centralized exception handling?",
+                Choices = new List<string>
+                {
+                    "A. UseDatabase()",
+                    "B. UseExceptionHandler()",
+                    "C. UseValidationHandler()",
+                    "D. UseMvcDatabase()"
+                },
+                ChosenAnswer = "B"
+            },
         };
 
         return View(questions);
