@@ -20,7 +20,7 @@ public class HomeController : Controller
                     "C. It allows data to persist after the application stops",
                     "D. It removes the need for MVC"
                 },
-                CorrectAnswer = "C"
+                ChosenAnswer = "C"
             },
             new ExamQuestion
             {
@@ -33,7 +33,7 @@ public class HomeController : Controller
                     "C. Model-First",
                     "D. Controller-First"
                 },
-                CorrectAnswer = "B"
+                ChosenAnswer = "B"
             },
             new ExamQuestion
             {
@@ -46,7 +46,7 @@ public class HomeController : Controller
                     "C. To map objects in code to relational database data",
                     "D. To replace the C# compiler"
                 },
-                CorrectAnswer = "C"
+                ChosenAnswer = "C"
             },
             new ExamQuestion
             {
@@ -59,7 +59,7 @@ public class HomeController : Controller
                     "C. ControllerContext",
                     "D. RazorContext"
                 },
-                CorrectAnswer = "A"
+                ChosenAnswer = "A"
             },
             new ExamQuestion
             {
@@ -72,7 +72,7 @@ public class HomeController : Controller
                     "C. Generates EF Core models and a DbContext from an existing database",
                     "D. Starts the MVC application"
                 },
-                CorrectAnswer = "C"
+                ChosenAnswer = "C"
             },
             new ExamQuestion
             {
@@ -85,7 +85,7 @@ public class HomeController : Controller
                     "C. Index.cshtml",
                     "D. Student.cs"
                 },
-                CorrectAnswer = "B"
+                ChosenAnswer = "B"
             },
             new ExamQuestion
             {
@@ -98,7 +98,7 @@ public class HomeController : Controller
                     "C. Many-to-Many",
                     "D. Many-to-One only"
                 },
-                CorrectAnswer = "B"
+                ChosenAnswer = "B"
             },
             new ExamQuestion
             {
@@ -111,7 +111,7 @@ public class HomeController : Controller
                     "C. Navigation property",
                     "D. Database connection string"
                 },
-                CorrectAnswer = "B"
+                ChosenAnswer = "B"
             },
             new ExamQuestion
             {
@@ -124,7 +124,7 @@ public class HomeController : Controller
                     "C. It creates a new database",
                     "D. It validates the student's name"
                 },
-                CorrectAnswer = "B"
+                ChosenAnswer = "B"
             },
             new ExamQuestion
             {
@@ -137,7 +137,20 @@ public class HomeController : Controller
                     "C. Create a new Student",
                     "D. Validate Student input"
                 },
-                CorrectAnswer = "B"
+                ChosenAnswer = "B"
+            },
+            new ExamQuestion
+            {
+                Number = 11,
+                Question = "Why might a ViewModel be used when displaying Student and Section information?",
+                Choices = new List<string>
+                {
+                    "A. To replace the database",
+                    "B. To combine or shape the data specifically needed by the view",
+                    "C. To automatically create database tables",
+                    "D. To prevent controllers from using LINQ"
+                },
+                ChosenAnswer = "B"
             },
         };
 
