@@ -48,6 +48,19 @@ public class HomeController : Controller
                 },
                 CorrectAnswer = "C"
             },
+            new ExamQuestion
+            {
+                Number = 4,
+                Question = "Which EF Core component is primarily responsible for communicating with the database?",
+                Choices = new List<string>
+                {
+                    "A. DbContext",
+                    "B. DbSetView",
+                    "C. ControllerContext",
+                    "D. RazorContext"
+                },
+                CorrectAnswer = "A"
+            },
         };
 
         return View(questions);
