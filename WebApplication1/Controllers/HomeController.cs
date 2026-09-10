@@ -126,6 +126,19 @@ public class HomeController : Controller
                 },
                 CorrectAnswer = "B"
             },
+            new ExamQuestion
+            {
+                Number = 10,
+                Question = "What does .Include() generally allow EF Core to do?",
+                Choices = new List<string>
+                {
+                    "A. Delete the Section table",
+                    "B. Load related Section data together with Students",
+                    "C. Create a new Student",
+                    "D. Validate Student input"
+                },
+                CorrectAnswer = "B"
+            },
         };
 
         return View(questions);
