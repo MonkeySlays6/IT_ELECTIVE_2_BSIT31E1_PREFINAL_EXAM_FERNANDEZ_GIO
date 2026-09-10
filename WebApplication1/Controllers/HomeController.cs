@@ -1,25 +1,29 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 using WebApplication1.Models;
 
-namespace WebApplication1.Controllers
+namespace WebApplication1.Controllers;
+
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    public IActionResult Index()
     {
-        public IActionResult Index()
+        var questions = new List<ExamQuestion>
         {
-            return View();
-        }
+            new ExamQuestion
+            {
+                Number = 1,
+                Question = "What is the main problem solved by using a database instead of an in-memory collection?",
+                Choices = new List<string>
+                {
+                    "A. It makes C# code shorter",
+                    "B. It prevents the application from restarting",
+                    "C. It allows data to persist after the application stops",
+                    "D. It removes the need for MVC"
+                },
+                CorrectAnswer = "C"
+            },
+        };
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        return View(questions);
     }
 }
