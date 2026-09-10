@@ -1,1 +1,7 @@
-# IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_FERNANDEZ_GIO
+# IT Elective 2 Prefinal Exam
+
+Name: Fernandez, Gio N. | Class: IT Elective 2 | Section: BSIT31E1
+
+This ASP.NET Core MVC application displays the 20 examination questions, choices, and chosen answers.
+
+No database is used.
