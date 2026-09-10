@@ -22,6 +22,19 @@ public class HomeController : Controller
                 },
                 CorrectAnswer = "C"
             },
+            new ExamQuestion
+            {
+                Number = 2,
+                Question = "Which approach is being used when an existing database is used to generate EF Core entity classes?",
+                Choices = new List<string>
+                {
+                    "A. Code-First",
+                    "B. Database-First",
+                    "C. Model-First",
+                    "D. Controller-First"
+                },
+                CorrectAnswer = "B"
+            },
         };
 
         return View(questions);
