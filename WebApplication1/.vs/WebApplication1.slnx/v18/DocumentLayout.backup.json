@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\gionf\\downloads\\github\\it_elective_2_bsit31e1_prefinal_exam_fernandez_gio\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\gionf\\downloads\\github\\it_elective_2_bsit31e1_prefinal_exam_fernandez_gio\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,19 +70,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\gionf\\Downloads\\GitHub\\IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_FERNANDEZ_GIO\\WebApplication1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\gionf\\Downloads\\GitHub\\IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_FERNANDEZ_GIO\\WebApplication1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-09-10T10:21:34.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gionf\\Downloads\\GitHub\\IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_FERNANDEZ_GIO\\WebApplication1\\Views\\Home\\Index.cshtml",
@@ -95,8 +78,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-10T09:35:25.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T09:35:25.389Z"
             },
             {
               "$type": "Document",
@@ -106,7 +88,7 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\gionf\\Downloads\\GitHub\\IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_FERNANDEZ_GIO\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAgwEIAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwHwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T09:29:33.244Z",
               "EditorCaption": ""

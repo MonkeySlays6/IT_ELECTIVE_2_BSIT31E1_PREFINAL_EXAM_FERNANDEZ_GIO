@@ -113,6 +113,19 @@ public class HomeController : Controller
                 },
                 CorrectAnswer = "B"
             },
+            new ExamQuestion
+            {
+                Number = 9,
+                Question = "What is the purpose of a navigation property such as public Section Section { get; set; }?",
+                Choices = new List<string>
+                {
+                    "A. It stores the database password",
+                    "B. It represents a relationship to another entity",
+                    "C. It creates a new database",
+                    "D. It validates the student's name"
+                },
+                CorrectAnswer = "B"
+            },
         };
 
         return View(questions);
