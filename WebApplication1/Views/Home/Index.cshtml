@@ -7,14 +7,14 @@
     <section class="question-card">
         <h2>@item.Number. @item.Question</h2>
 
-        <ul>
+        <ul style="list-style-type: none; padding-left: 0; font-size: 20px;">
             @foreach (var choice in item.Choices)
             {
-                <li>@choice</li>
+                <li style="margin-bottom: 8px;">@choice</li>
             }
         </ul>
 
-        <p>
+        <p style="font-size: 20px;">
             <strong>Correct Answer:</strong> @item.CorrectAnswer
         </p>
     </section>

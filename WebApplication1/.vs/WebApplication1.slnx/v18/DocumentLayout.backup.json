@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\gionf\\downloads\\github\\it_elective_2_bsit31e1_prefinal_exam_fernandez_gio\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\gionf\\downloads\\github\\it_elective_2_bsit31e1_prefinal_exam_fernandez_gio\\webapplication1\\models\\examquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:models\\examquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,7 +76,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\gionf\\Downloads\\GitHub\\IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_FERNANDEZ_GIO\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-10T09:35:25.389Z",
               "EditorCaption": ""
@@ -93,22 +89,9 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\gionf\\Downloads\\GitHub\\IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_FERNANDEZ_GIO\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wC8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T09:29:33.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExamQuestion.cs",
-              "DocumentMoniker": "C:\\Users\\gionf\\Downloads\\GitHub\\IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_FERNANDEZ_GIO\\WebApplication1\\Models\\ExamQuestion.cs",
-              "RelativeDocumentMoniker": "Models\\ExamQuestion.cs",
-              "ToolTip": "C:\\Users\\gionf\\Downloads\\GitHub\\IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_FERNANDEZ_GIO\\WebApplication1\\Models\\ExamQuestion.cs",
-              "RelativeToolTip": "Models\\ExamQuestion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T09:28:48.443Z",
               "EditorCaption": ""
             }
           ]

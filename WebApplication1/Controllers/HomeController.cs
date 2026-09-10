@@ -35,6 +35,19 @@ public class HomeController : Controller
                 },
                 CorrectAnswer = "B"
             },
+            new ExamQuestion
+            {
+                Number = 3,
+                Question = "What is the primary purpose of Entity Framework Core?",
+                Choices = new List<string>
+                {
+                    "A. To create HTML pages automatically",
+                    "B. To replace the MVC Controller",
+                    "C. To map objects in code to relational database data",
+                    "D. To replace the C# compiler"
+                },
+                CorrectAnswer = "C"
+            },
         };
 
         return View(questions);
