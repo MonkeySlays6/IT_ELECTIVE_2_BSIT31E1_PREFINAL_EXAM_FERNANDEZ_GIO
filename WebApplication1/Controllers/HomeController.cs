@@ -256,8 +256,20 @@ public class HomeController : Controller
                 },
                 ChosenAnswer = "B"
             },
+            new ExamQuestion
+            {
+                Number = 20,
+                Question = "A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?",
+                Choices = new List<string>
+                {
+                    "A. Data integrity",
+                    "B. HTML formatting",
+                    "C. CSS inheritance",
+                    "D. Razor syntax"
+                },
+                ChosenAnswer = "A"
+            }
         };
-
         return View(questions);
     }
 }
