@@ -152,6 +152,19 @@ public class HomeController : Controller
                 },
                 ChosenAnswer = "B"
             },
+            new ExamQuestion
+            {
+                Number = 12,
+                Question = "Consider this query:\nvar students = _context.Students.Include(s => s.Section).ToList();\nWhat is the main benefit of Include(s => s.Section)?",
+                Choices = new List<string>
+                {
+                    "A. It loads the related Section navigation property",
+                    "B. It creates a Section object manually",
+                    "C. It removes the foreign key",
+                    "D. It prevents the query from accessing the database"
+                },
+                ChosenAnswer = "A"
+            },
         };
 
         return View(questions);
