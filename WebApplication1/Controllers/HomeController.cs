@@ -64,7 +64,7 @@ public class HomeController : Controller
             new ExamQuestion
             {
                 Number = 5,
-                Question = "What does the following command primarily do? dotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models",
+                Question = "What does the following command primarily do?\ndotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models",
                 Choices = new List<string>
                 {
                     "A. Deletes the database",
@@ -97,6 +97,19 @@ public class HomeController : Controller
                     "B. One-to-Many",
                     "C. Many-to-Many",
                     "D. Many-to-One only"
+                },
+                CorrectAnswer = "B"
+            },
+            new ExamQuestion
+            {
+                Number = 8,
+                Question = "In the following example, what is SectionId?\npublic int SectionId { get; set; }\npublic Section Section { get; set; }",
+                Choices = new List<string>
+                {
+                    "A. Primary key of Student",
+                    "B. Foreign key referencing Section",
+                    "C. Navigation property",
+                    "D. Database connection string"
                 },
                 CorrectAnswer = "B"
             },
